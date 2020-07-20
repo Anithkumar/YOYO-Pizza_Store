@@ -11,19 +11,6 @@ Pizza Ordering ChatBot using Dialogflow and Firebase. Using YoYoPizza ChatBot we
 ### Application Architechture
 ![Architechture](doc/application_architechture.PNG)
 
-## Dialogflow
-The intents and entities is defined in Dialogflow.
-![Intent](doc/intent.PNG)
-
-![Entity](doc/entity.PNG)
-
-## Firebase
-Firebase is the realtime database for ChatBot. All the order from chats are stored in firebase database.
-![Firebase](doc/DB.PNG)
-
-## Screenshot of YoYoPizza ChatBot
-![YoYoPizza](doc/output.jpeg)
-
 ## Steps to use the bot
 Say Hi to the Chat Bot. It will ask How can I help you?<br/>
 <br/>
@@ -56,3 +43,18 @@ After giving the OrderID, The Chat Bot will return the Order status To the EndUs
 After that you can say thankyou, The Chat Bot will replay to you...!!!!! 
 <br/>
 <br/>
+
+
+## Dialogflow
+The intents and entities is defined in Dialogflow.
+![Intent](doc/intent.PNG)
+
+![Entity](doc/entity.PNG)
+
+## Firebase
+Firebase is the realtime database for ChatBot. All the order from chats are stored in firebase database.
+![Firebase](doc/DB.PNG)
+
+## Screenshot of YoYoPizza ChatBot
+![YoYoPizza](doc/output.jpeg)
+
