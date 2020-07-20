@@ -1,0 +1,50 @@
+[
+  {
+    "value": "Chicago Pizza.",
+    "synonyms": [
+      "Chicago Pizza."
+    ]
+  },
+  {
+    "value": "New York-Style Pizza.",
+    "synonyms": [
+      "New York-Style Pizza."
+    ]
+  },
+  {
+    "value": "Chicken Pizza",
+    "synonyms": [
+      "Chicken Pizza"
+    ]
+  },
+  {
+    "value": "California Pizza",
+    "synonyms": [
+      "California Pizza"
+    ]
+  },
+  {
+    "value": "cheese pizza",
+    "synonyms": [
+      "cheese pizza"
+    ]
+  },
+  {
+    "value": "Pepperoni Pizza",
+    "synonyms": [
+      "Pepperoni Pizza"
+    ]
+  },
+  {
+    "value": "Margherita Pizza",
+    "synonyms": [
+      "Margherita Pizza"
+    ]
+  },
+  {
+    "value": "Veggie Pizza",
+    "synonyms": [
+      "Veggie Pizza"
+    ]
+  }
+]

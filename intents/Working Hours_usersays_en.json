@@ -1,0 +1,92 @@
+[
+  {
+    "id": "8e86d296-032d-4e91-8b40-7c4cfbf98f98",
+    "data": [
+      {
+        "text": "Is the is open ",
+        "userDefined": false
+      },
+      {
+        "text": "today",
+        "alias": "date-time",
+        "meta": "@sys.date-time",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "0a28afbd-801f-4346-a5c8-1d3e3a266ecb",
+    "data": [
+      {
+        "text": "Will the store closed in the weekends...????",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "5ed31ae0-57d4-4120-afb9-1232dee4152d",
+    "data": [
+      {
+        "text": "What are the timings of the store in the weekends....?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a30e3c29-165e-4f0b-91ef-41929ad38226",
+    "data": [
+      {
+        "text": "Can I know the opening hours of the store...!????",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "416a2649-014f-4e97-828a-24b1855aecb7",
+    "data": [
+      {
+        "text": "Is the store open right now...!!???",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "6ce3bc76-c7ca-4ffd-a912-b202d7712506",
+    "data": [
+      {
+        "text": "When does the store closes...???",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "2732be4f-ed28-4067-bbdc-fe8d2f95946b",
+    "data": [
+      {
+        "text": "When does the store opens..?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

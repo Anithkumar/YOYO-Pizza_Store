@@ -1,0 +1,130 @@
+{
+  "id": "c8822b85-0976-47c6-96ab-2e01b4ad3ed6",
+  "name": "UserDetails",
+  "auto": true,
+  "contexts": [
+    "OrderPizza"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "UserDetails",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "103c702c-aa18-4df5-9a6a-779026ef5596",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "name",
+          "value": "$name",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What\u0027s your name..?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "509f4fe5-36dc-4b7c-81ad-baa50b309f6d",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "phoneno",
+          "value": "$phoneno",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Can I have Your Mobile number please $name.?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "72862a7f-88b0-494e-8a05-9b55c85d33d2",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "address",
+          "value": "$address",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Can I have your Residential Address for Delivery $name.?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "099f33a3-b62c-4dd4-b421-ae3ac53fa205",
+          "required": false,
+          "dataType": "@TypesOfPizzas",
+          "name": "pizzatype",
+          "value": "#OrderPizza.TypesOfPizzas",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "135c234e-da61-4c07-aa9c-c5417aca4a44",
+          "required": false,
+          "dataType": "@pizzasize",
+          "name": "pizzasize",
+          "value": "#OrderPizza.pizzasize",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "fac9f539-179d-4dbb-860b-f18e99555ab5",
+          "required": false,
+          "dataType": "@PizzaToppings",
+          "name": "pizzatoppings",
+          "value": "#OrderPizza.PizzaToppings",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

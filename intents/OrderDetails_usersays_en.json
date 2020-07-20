@@ -1,0 +1,38 @@
+[
+  {
+    "id": "2882a681-4dc1-4a2d-acd1-8dbf2917dc3c",
+    "data": [
+      {
+        "text": "bring my order status",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "1d117f3f-e6a5-4498-84ce-cb234acf9bf4",
+    "data": [
+      {
+        "text": "order status",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "3952feed-342e-4ce3-9f93-853709db8c7c",
+    "data": [
+      {
+        "text": "hey what is my order status",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

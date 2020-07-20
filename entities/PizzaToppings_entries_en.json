@@ -1,0 +1,62 @@
+[
+  {
+    "value": "bacon",
+    "synonyms": [
+      "bacon"
+    ]
+  },
+  {
+    "value": "cheese",
+    "synonyms": [
+      "cheese"
+    ]
+  },
+  {
+    "value": "chicken",
+    "synonyms": [
+      "chicken"
+    ]
+  },
+  {
+    "value": "mushroom",
+    "synonyms": [
+      "mushroom"
+    ]
+  },
+  {
+    "value": "panneerbutter",
+    "synonyms": [
+      "panneerbutter"
+    ]
+  },
+  {
+    "value": "onions",
+    "synonyms": [
+      "onions"
+    ]
+  },
+  {
+    "value": "tomato",
+    "synonyms": [
+      "tomato"
+    ]
+  },
+  {
+    "value": "vegetables",
+    "synonyms": [
+      "vegetables"
+    ]
+  },
+  {
+    "value": "pepperoni",
+    "synonyms": [
+      "pepperoni"
+    ]
+  },
+  {
+    "value": "sausage",
+    "synonyms": [
+      "sausage"
+    ]
+  }
+]

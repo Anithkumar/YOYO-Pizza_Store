@@ -1,0 +1,9 @@
+{
+  "id": "820a2150-1ef2-411f-86bd-136266cf2d34",
+  "name": "TypesOfPizzas",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

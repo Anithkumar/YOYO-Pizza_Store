@@ -1,0 +1,56 @@
+{
+  "id": "6490c449-154b-4a3e-bef3-739c2553a320",
+  "name": "OrderDetails",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "OrderDetails",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "add344cf-e81c-4bd9-9403-efa44eb72c76",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "orderid",
+          "value": "$orderid",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Enter your OrderID"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,244 @@
+[
+  {
+    "id": "a9c9f430-942d-48a5-baec-3a7864a59940",
+    "data": [
+      {
+        "text": "i want one ",
+        "userDefined": false
+      },
+      {
+        "text": "small",
+        "alias": "pizzasize",
+        "meta": "@pizzasize",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "New York-Style Pizza",
+        "alias": "TypesOfPizzas",
+        "meta": "@TypesOfPizzas",
+        "userDefined": true
+      },
+      {
+        "text": ". pickup in ",
+        "userDefined": false
+      },
+      {
+        "text": "one hour",
+        "alias": "time",
+        "meta": "@sys.time",
+        "userDefined": true
+      },
+      {
+        "text": " from ",
+        "userDefined": false
+      },
+      {
+        "text": "now",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "111e8ab8-c722-4bd0-b922-17235dae9be5",
+    "data": [
+      {
+        "text": "i would like to have ",
+        "userDefined": false
+      },
+      {
+        "text": "small",
+        "alias": "pizzasize",
+        "meta": "@pizzasize",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "Margherita Pizza.",
+        "alias": "TypesOfPizzas",
+        "meta": "@TypesOfPizzas",
+        "userDefined": true
+      },
+      {
+        "text": " pickup in ",
+        "userDefined": false
+      },
+      {
+        "text": "30 mins",
+        "alias": "time",
+        "meta": "@sys.time",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d146077d-4532-4344-bd4b-2b09f792f396",
+    "data": [
+      {
+        "text": "I would like an medium ",
+        "userDefined": false
+      },
+      {
+        "text": "Pepperoni Pizza",
+        "alias": "TypesOfPizzas",
+        "meta": "@TypesOfPizzas",
+        "userDefined": true
+      },
+      {
+        "text": " with more ",
+        "userDefined": false
+      },
+      {
+        "text": "toppings",
+        "alias": "PizzaToppings",
+        "meta": "@PizzaToppings",
+        "userDefined": true
+      },
+      {
+        "text": ". I want that at ",
+        "userDefined": false
+      },
+      {
+        "text": "10.00 am",
+        "alias": "time",
+        "meta": "@sys.time",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "tommorow",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "7d3bba21-0f57-4119-b162-0421cbffa641",
+    "data": [
+      {
+        "text": "I want to one ",
+        "userDefined": false
+      },
+      {
+        "text": "large",
+        "alias": "pizzasize",
+        "meta": "@pizzasize",
+        "userDefined": true
+      },
+      {
+        "text": " high ",
+        "userDefined": false
+      },
+      {
+        "text": "mushroom",
+        "alias": "PizzaToppings",
+        "meta": "@PizzaToppings",
+        "userDefined": true
+      },
+      {
+        "text": "  ",
+        "userDefined": false
+      },
+      {
+        "text": "toppings",
+        "alias": "PizzaToppings",
+        "meta": "@PizzaToppings",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "chicken pizza",
+        "alias": "TypesOfPizzas",
+        "meta": "@TypesOfPizzas",
+        "userDefined": true
+      },
+      {
+        "text": " available ",
+        "userDefined": false
+      },
+      {
+        "text": "now",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      },
+      {
+        "text": ".",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "bb4fdd40-f5a5-43b0-8f90-5a2ef734615a",
+    "data": [
+      {
+        "text": "Is  ",
+        "userDefined": false
+      },
+      {
+        "text": "medium",
+        "alias": "pizzasize",
+        "meta": "@pizzasize",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "Cheese",
+        "alias": "PizzaToppings",
+        "meta": "@PizzaToppings",
+        "userDefined": true
+      },
+      {
+        "text": " pizza Available ...????   I want to order one for ",
+        "userDefined": false
+      },
+      {
+        "text": "7pm",
+        "alias": "time",
+        "meta": "@sys.time",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "Today",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

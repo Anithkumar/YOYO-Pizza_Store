@@ -1,0 +1,131 @@
+{
+  "id": "dcb873a2-f8ab-4738-a394-9ff75e726c79",
+  "name": "OrderPizza",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "OrderPizza",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "b9ff11fa-9137-47a2-abf3-008b4f48b12c",
+          "required": false,
+          "dataType": "@sys.date",
+          "name": "date",
+          "value": "$date",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Can you provide me a delivery time?(Timings)"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "81252f09-571d-4fe7-9f08-05f86e2b1e9b",
+          "required": true,
+          "dataType": "@sys.time",
+          "name": "time",
+          "value": "$time",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "When are you expecting your delivery?(Timings)"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": true
+        },
+        {
+          "id": "58702e5e-500f-4efd-9a55-d2e00537c54d",
+          "required": true,
+          "dataType": "@pizzasize",
+          "name": "pizzasize",
+          "value": "$pizzasize",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Which size do you want ? (Small, Medium, Large, Extra Large)"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": true
+        },
+        {
+          "id": "db8ff905-1e15-4c77-b8c6-1bb86b46460f",
+          "required": true,
+          "dataType": "@PizzaToppings",
+          "name": "PizzaToppings",
+          "value": "$PizzaToppings",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Do you want any Toppings ?(Like Cheese,Vegetables)"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": true
+        },
+        {
+          "id": "02a4c578-1d5a-420f-95de-a8693122eb7d",
+          "required": true,
+          "dataType": "@TypesOfPizzas",
+          "name": "TypesOfPizzas",
+          "value": "$TypesOfPizzas",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What Type of Pizza do you want..??"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": true
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": [
+            "Great choice..!! Your order \"$TypesOfPizzas\" and \"$pizzasize\" size is placed. Type ok to continue",
+            "Good choice..!!Your order \"$TypesOfPizzas\" and \"$pizzasize\" size is placed. Type ok to continue"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 1000000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
