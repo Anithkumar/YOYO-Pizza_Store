@@ -4,6 +4,13 @@ Pizza Store Interact Chat Bot
 ## About the YOYO Pizza Store
 Pizza Ordering ChatBot using Dialogflow and Firebase. Using YoYoPizza ChatBot we can order the pizza.
 
+## Appliation Architecture YOYO-Pizza_Chatbot
+### Basic Architechture
+![Architechture](doc/basic_architechture.PNG)
+
+### Application Architechture
+![Architechture](doc/application_architechture.PNG)
+
 ## Dialogflow
 The intents and entities is defined in Dialogflow.
 ![Intent](doc/intent.PNG)
